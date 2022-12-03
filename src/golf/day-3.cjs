@@ -1,0 +1,2 @@
+console.log((I=require('fs').readFileSync(process.argv[2],`utf8`).split`
+`)[R=`reduce`]((t,x)=>t+[...new Set([...x.slice(0,q=x.length/2)].filter(v=>x.slice(q)[N=`includes`](v)))][R](f=(s,v)=>s+v.charCodeAt()-(/[a-z]/.test(v)?96:38),0),0),I[R]((t,x,i)=>i%3?t:t+[...new Set([...x].filter(v=>I[i+1][N](v)&&I[i+2][N](v)))][R](f,0),0))
