@@ -16,5 +16,8 @@
     "author": "Vincent Diep",
     "engines": {
         "node": ">=18.12"
+    },
+    "dependencies": {
+        "node-dijkstra": "^2.5.0"
     }
 }
